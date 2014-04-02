@@ -15,8 +15,13 @@ include_once( 'randomValue.php' );
 $randomValue = new RandomValue;
 
 $randomValue->randomNumber(): -3880998
+
 $randomValue->randomNumberBetween(1,10): 2
+
 $randomValue->randomTextString(): CfCkKDHRgUULdGWcSqP4
+
 $randomValue->randomTextString(10): LorPIxaeEY
+
 $randomValue->randomKey(): C7al8tX9.gqYLf2ImVt/!$NOY79T5sNCT/6Q.$!.6Gf/Q5zpa3
+
 $randomValue->randomKey(10): RDV.dc6Ai/
