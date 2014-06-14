@@ -3,6 +3,7 @@
 *		Class to produce unique values
 *		By Evan Francis, 2014
 *		
+*		MIT License
 */
 class RandomValue{
 	//get a random number
