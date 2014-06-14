@@ -44,7 +44,7 @@ class RandomValue{
 		$characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 		$randomString = '';
 		for ($i = 0; $i < $length; $i++) {
-			$randomString .= $characters[$this->randomNumberBetween(0,strlen($characters)-1)];
+			$randomString .= $characters[(int)$this->randomNumberBetween(0,strlen($characters)-1)];
 		}
 		return $randomString;
 	}
@@ -54,7 +54,7 @@ class RandomValue{
 		$characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!$./!$./!$./!$./';
 		$randomKey = '';
 		for ($i = 0; $i < $length; $i++) {
-			$randomKey .= $characters[$this->randomNumberBetween(0,strlen($characters)-1)];
+			$randomKey .= $characters[(int)$this->randomNumberBetween(0,strlen($characters)-1)];
 		}
 		
 		return $randomKey;
