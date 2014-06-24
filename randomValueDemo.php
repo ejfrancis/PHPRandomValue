@@ -4,10 +4,11 @@
 *		By Evan Francis, 2014
 *		
 */
-include_once( 'randomValue.php' );
+//require file
+require_once( 'randomValue.php' );
 
 //create new random value object
-$randomValue = new RandomValue;
+$randomValue = new ejfrancis\RandomValue;
 
 //get random values object
 echo "randomValue->randomNumber(): ".$randomValue->randomNumber()."<br>";

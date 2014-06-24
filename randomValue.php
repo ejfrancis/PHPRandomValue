@@ -5,6 +5,8 @@
 *		
 *		MIT License
 */
+namespace ejfrancis;
+
 class RandomValue{
 	//get a random number
 	public function randomNumber(){
