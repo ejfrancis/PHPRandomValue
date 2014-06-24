@@ -11,7 +11,7 @@ random using the number generator.
 
 ###Example Usage and Output
 ```php
-include_once( 'randomValue.php' );
+include_once( 'RandomValue.php' );
 
 $randomValue = new ejfrancis\RandomValue;
 
