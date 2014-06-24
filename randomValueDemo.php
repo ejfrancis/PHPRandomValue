@@ -5,7 +5,7 @@
 *		
 */
 //require file
-require_once( 'randomValue.php' );
+require_once( 'RandomValue.php' );
 
 //create new random value object
 $randomValue = new ejfrancis\RandomValue;
@@ -17,6 +17,9 @@ echo "randomValue->randomTextString(): ".$randomValue->randomTextString()."<br>"
 echo "randomValue->randomTextString(10): ".$randomValue->randomTextString(10)."<br>";
 echo "randomValue->randomKey(): ".$randomValue->randomKey()."<br>";
 echo "randomValue->randomKey(10): ".$randomValue->randomKey(10)."<br>";
+echo "randomValue->randomStrongerKey(): ".$randomValue->randomStrongerKey()."<br>";
+echo "randomValue->randomStrongerKey(15): ".$randomValue->randomStrongerKey(15)."<br>";
+
 
 
 ?>

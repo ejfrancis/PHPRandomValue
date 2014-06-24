@@ -63,6 +63,17 @@ class RandomValue{
 		return $randomKey;
 	}
 	
+	//get a random key (combination of text and more special character)
+	public function randomStrongerKey($length = 100){
+		$characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGH2f3[]-*39rs23m]v%$&#!@^#Ir{"_q{=1s9-a?1/V2L^!8e*{&_s$8h>g:FlD4$zUGI#R}:1j_1IJKLMasRZ!$./!$./!$+s*5=[T3pkE%:8d';
+		$randomKey = '';
+		for ($i = 0; $i < $length; $i++) {
+			$randomKey .= $characters[(int)$this->randomNumberBetween(0,strlen($characters)-1)];
+		}
+		
+		return $randomKey;
+	}
+	
 	
 }
 
