@@ -7,6 +7,11 @@ Random numbers are generated using mcrypt_create_iv(4, MCRYPT_DEV_URANDOM). Rand
 strings and keys (including letters and characters) are created by choosing characters at 
 random using the number generator. 
 
+##Installation
+The recommended way to install is using composer, with the following require:
+`"ejfrancis/php-random-value": "dev-master"`
+
+You can also download the classfile `RandomValue.php` and include it manually.
 
 ###Example Usage and Output
 ```php
