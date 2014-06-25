@@ -1,5 +1,4 @@
 #PHPRandomValue
-==============
 
 PHPRandomValue is a PHP class for generating random values including numbers, text strings, and keys
 originally developed for use within the [AlpineAuth](https://github.com/ejfrancis/AlpineAuth) library.
