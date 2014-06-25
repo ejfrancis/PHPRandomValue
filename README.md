@@ -25,9 +25,9 @@ $randomValue->randomTextString(10): //LorPIxaeEY
 
 $randomValue->randomKey(): //C7al8tX9.gqYLf2ImVt/!$NOY79T5sNCT/6Q.$!.6Gf/Q5zpa3
 
-$randomValue->randomKey(10): /RDV.dc6Ai/
+$randomValue->randomKey(10): //RDV.dc6Ai/
 
-randomValue->randomStrongerKey(): //{I}s3897:}$xz4R@hpd!_+1L13[:_%1::pv/-asp2%4^#5$iG$F:{_Jf5s-98]raaqrhZ*Jg2k-nT-{9nBxsl!^dFI&21f"V:mU3
+$randomValue->randomStrongerKey(): //{I}s3897:}$xz4R@hpd!_+1L13[:_%1::pv/-asp2%4^#5$iG$F:{_Jf5s-98]raaqrhZ*Jg2k-nT-{9nBxsl!^dFI&21f"V:mU3
 
-randomValue->randomStrongerKey(15): //q:]qf941l[D&s8A
+$randomValue->randomStrongerKey(15): //q:]qf941l[D&s8A
 ```
