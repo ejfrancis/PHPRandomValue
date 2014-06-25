@@ -9,6 +9,7 @@ random using the number generator.
 
 ##Installation
 The recommended way to install is using composer, with the following require:
+
 `"ejfrancis/php-random-value": "dev-master"`
 
 You can also download the classfile `RandomValue.php` and include it manually.
